@@ -1,0 +1,16 @@
+spin_manifest_version = "1"
+authors = ["Matt Butcher <matt.butcher@fermyon.com>"]
+description = "Example of every KV function"
+name = "all-kv-functions"
+trigger = { type = "http", base = "/" }
+version = "0.1.0"
+
+[[component]]
+id = "all-kv-functions"
+source = "target/all-kv-functions.wasm"
+exclude_files = ["**/node_modules"]
+key_value_stores = ["default"]
+[component.trigger]
+route = "/..."
+[component.build]
+command = "npm run build"

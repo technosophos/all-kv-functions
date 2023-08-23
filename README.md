@@ -14,7 +14,7 @@ $ spin build  # Run locally
 $ spin up     # Test locally
 $ curl localhost:3000
 $ spin deploy # Test on Fermyon Cloud
-$ curl https://all-kv-functions-XXXXXX.fermyon.app // where XXXXXX is whatever code Fermyon generates for you
+$ curl https://all-kv-functions-XXXXXX.fermyon.app # where XXXXXX is whatever code Fermyon generates for you
 ```
 
 ## Expected Output
